@@ -8,7 +8,7 @@ The image presents a cryptic puzzle involving bats and encoded messages. The nar
 
 The first clue is the mention of "steganography," a technique used to hide data within an ‎image. To uncover any concealed files or messages within the image, the tool Steghide ‎can be used. Steghide allows us to extract hidden data if it exists within the image. And ‎this tool needs passphrase and it cannot be cracked, or brute forced.‎
 
-###Step 2: Decoding the B-A-T Cryptography
+### Step 2: Decoding the B-A-T Cryptography
 
 The image mentions "B-A-T cryptography," which is a strong hint toward a custom ‎encoding system. The letters B, A, and T can be translated into a ternary (base-3) system:‎
 `
@@ -26,10 +26,19 @@ Sequence Given (Signature):‎ BBB ATB TBT BBA BBB TBA
     ![image](https://github.com/user-attachments/assets/f7f19604-aa54-4468-9df8-237d00b93583)
 
 ‎1.‎	BBB converts to 000 in base-3, which corresponds to the letter A (assuming A = ‎‎0).‎
+
 ‎2.‎	ATB converts to 102 in base-3, which corresponds to the letter P.‎
-‎3.‎	TBT converts to 201 in base-3, which corresponds to the letter U.‎
+
+‎3.‎	TBT converts to 201 in base-3, which corresponds to the letter U.
+‎
+
+
 ‎4.‎	BBA converts to 001 in base-3, which corresponds to the letter B.‎
+
+
+
 ‎5.‎	BBB converts to 000 in base-3, which corresponds to the letter A.‎
+
 ‎6.‎	TBA converts to 201 in base-3, which corresponds to the letter T.‎
 
 Decoded Result:‎
